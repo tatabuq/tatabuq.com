@@ -4,38 +4,23 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 5em;
-  overflow-x: hidden;
-  overflow-y: hidden;
   background: #000000;
+  overflow-x: hidden;
   color: #ffffff;
   font-family: monospace;
 }
 
-.main {
-  position: absolute;
-  top: 50%;
-}
-
-.content {
-  height: 500px;
-  width: 500px;
-  white-space: nowrap;
-}
-
-.helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-
 .logo {
-  vertical-align: middle;
-    max-height: 500px;
-    max-width: 500px;
+  position: fixed;
+  bottom: 5em;
+  left: 5em;
+  max-width: 50%;
+  width: 30em;
+  min-width: 10em;
 }
 
 .email {
-  display: block;
-  color: #D2D1D1;
-  margin: -10em 0 0 0.5em;
+  position: fixed;
+  bottom: 3em;
+  left: 5em;
 }
